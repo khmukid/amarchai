@@ -9,56 +9,56 @@
 
     <title>AmarChai-The ultimate choice for your event.</title>
     
-    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/bootstrap3/css/bootstrap.css" rel="stylesheet">
 
     <!-- main css -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/main.css" rel="stylesheet">
     
     <!-- mobile css -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/responsive.css" rel="stylesheet">
     
     <!-- FontAwesome Support -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/font-awesome.min.css" />
     <!-- FontAwesome Support -->
     
     <!-- Btns -->
-    <link rel="stylesheet" type="text/css" href="css/btn.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/btn.css" />
     <!-- Btns -->
     
     <!-- Superfish menu -->
-    <link rel="stylesheet" type="text/css" href="css/superfish/superfish.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/superfish/superfish.css" />
     <!-- Superfish menu -->
     
     <!-- Theme Color selector -->
-    <link href="js/theme-color-selector/theme-color-selector.css" type="text/css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/theme-color-selector/theme-color-selector.css" type="text/css" rel="stylesheet">
     <!-- Theme Color selector -->
     
     <!-- Owl Carousel -->
-    <link rel="stylesheet" type="text/css" href="js/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/owl-carousel/owl.carousel.css" />
     <!-- Owl Carousel -->
     
     <!-- Twitter feed -->
-    <link rel="stylesheet" type="text/css" href="css/twitterfeed.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/twitterfeed.css" />
     <!-- Twitter feed -->
     
     <!-- Typicons -->
-    <link rel="stylesheet" type="text/css" href="css/typicons/typicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/typicons/typicons.min.css" />
     <!-- Typicons -->
     
     <!-- WOW animations -->
-    <link rel="stylesheet" type="text/css" href="js/wow/css/libs/animate.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/wow/css/libs/animate.css" />
     <!-- WOW animations -->
     
     <!-- Forms -->
-    <link rel="stylesheet" type="text/css" href="css/forms.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/forms.css" />
     <!-- Forms -->
     
     <!-- Flickr feed -->
-    <link rel="stylesheet" type="text/css" href="css/flickrfeed.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/css/flickrfeed.css" />
     <!-- Flickr feed -->
     
     <!-- Pulse Slider -->
-    <link rel="stylesheet" type="text/css" href="js/pulse/pm-slider.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/pulse/pm-slider.css" />
     <!-- Pulse Slider -->
         
     <!-- Development Google Fonts -->
@@ -75,11 +75,11 @@
   <div class="pm-mobile-global-menu">
                 	
     <div class="pm-mobile-global-menu-logo">
-        <a href="index.html"><img src="img/vienna-logo.png" alt="Vienna Restaurant"></a> 
+        <a href="index.html"><img src="frontend-resources/img/vienna-logo.png" alt="Vienna Restaurant"></a> 
     </div>
     
     <div class="pm-mobile-global-menu-search">
-    	<form action="index.html#" method="post">
+    	<form action="#" method="post">
             <input name="" type="text" class="pm-search-field-mobile" placeholder="Type Keywords...">
         </form>
     </div>
@@ -140,23 +140,23 @@
         <div class="pm_theme_color_selector_container">
         	<p>Patterns for Boxed Mode</p>
         	<ul class="pm_theme_img_selector" id="pm_theme_pattern_selector">
-                <li><a href="index.html#" id="pattern1"><img src="img/boxed-patterns/pattern1.png" alt="pattern1"></a></li>
-                <li><a href="index.html#" id="pattern2"><img src="img/boxed-patterns/pattern2.png" alt="pattern2"></a></li>
-                <li><a href="index.html#" id="pattern3"><img src="img/boxed-patterns/pattern3.png" alt="pattern3"></a></li>
-                <li><a href="index.html#" id="pattern4"><img src="img/boxed-patterns/pattern4.png" alt="pattern4"></a></li>
-                <li><a href="index.html#" id="pattern5"><img src="img/boxed-patterns/pattern5.png" alt="pattern5"></a></li>
-                <li><a href="index.html#" id="pattern6"><img src="img/boxed-patterns/pattern6.png" alt="pattern6"></a></li>
+                <li><a href="index.html#" id="pattern1"><img src="frontend-resources/img/boxed-patterns/pattern1.png" alt="pattern1"></a></li>
+                <li><a href="index.html#" id="pattern2"><img src="frontend-resources/img/boxed-patterns/pattern2.png" alt="pattern2"></a></li>
+                <li><a href="index.html#" id="pattern3"><img src="frontend-resources/img/boxed-patterns/pattern3.png" alt="pattern3"></a></li>
+                <li><a href="index.html#" id="pattern4"><img src="frontend-resources/img/boxed-patterns/pattern4.png" alt="pattern4"></a></li>
+                <li><a href="index.html#" id="pattern5"><img src="frontend-resources/img/boxed-patterns/pattern5.png" alt="pattern5"></a></li>
+                <li><a href="index.html#" id="pattern6"><img src="frontend-resources/img/boxed-patterns/pattern6.png" alt="pattern6"></a></li>
             </ul>
         </div>
         
         <div class="pm_theme_color_selector_container">
         	<p>Backgrounds for Boxed Mode</p>
         	<ul class="pm_theme_img_selector" id="pm_theme_background_selector">
-                <li><a href="index.html#" id="1a"><img src="img/boxed-bgs/1.jpg" alt="bg1"></a></li>
-                <li><a href="index.html#" id="2a"><img src="img/boxed-bgs/2.jpg" alt="bg2"></a></li>
-                <li><a href="index.html#" id="3a"><img src="img/boxed-bgs/3.jpg" alt="bg3"></a></li>
-                <li><a href="index.html#" id="4a"><img src="img/boxed-bgs/4.jpg" alt="bg4"></a></li>
-                <li><a href="index.html#" id="5a"><img src="img/boxed-bgs/5.jpg" alt="bg5"></a></li>
+                <li><a href="index.html#" id="1a"><img src="frontend-resources/img/boxed-bgs/1.jpg" alt="bg1"></a></li>
+                <li><a href="index.html#" id="2a"><img src="frontend-resources/img/boxed-bgs/2.jpg" alt="bg2"></a></li>
+                <li><a href="index.html#" id="3a"><img src="frontend-resources/img/boxed-bgs/3.jpg" alt="bg3"></a></li>
+                <li><a href="index.html#" id="4a"><img src="frontend-resources/img/boxed-bgs/4.jpg" alt="bg4"></a></li>
+                <li><a href="index.html#" id="5a"><img src="frontend-resources/img/boxed-bgs/5.jpg" alt="bg5"></a></li>
             </ul>
         </div>
    
@@ -253,7 +253,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="index.html"><img src="img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Vienna Restaurant"></a> 
+                    		<a href="index.html"><img src="frontend-resources/img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Vienna Restaurant"></a> 
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
@@ -321,7 +321,7 @@
         <div class="pm-pulse-container" id="pm-pulse-container">
         
             <div id="pm-pulse-loader">
-                <img src="js/pulse/img/ajax-loader.gif" alt="slider loading" />
+                <img src="frontend-resources/js/pulse/img/ajax-loader.gif" alt="slider loading" />
             </div>
             
             <div id="pm-slider" class="pm-slider">
@@ -331,7 +331,7 @@
                 <ul class="pm-slides-container" id="pm_slides_container">
                     
                     <!-- FULL WIDTH slides -->
-                    <li data-thumb="img/slider/1a.jpg" class="pmslide_0"><img src="img/slider/slide1.jpg" alt="img01" />
+                    <li data-thumb="frontend-resources/img/slider/1a.jpg" class="pmslide_0"><img src="frontend-resources/img/slider/slide1.jpg" alt="img01" />
                     
                         <div class="pm-holder">
                             <div class="pm-caption">
@@ -345,7 +345,7 @@
                     
                     </li>
                     
-                    <li data-thumb="img/slider/2a.jpg" class="pmslide_1"><img src="img/slider/slide2.jpg" alt="img02" />
+                    <li data-thumb="frontend-resources/img/slider/2a.jpg" class="pmslide_1"><img src="frontend-resources/img/slider/slide2.jpg" alt="img02" />
                         
                         <div class="pm-holder">
                             <div class="pm-caption">
@@ -360,7 +360,7 @@
                                             
                     </li>
                     
-                    <li data-thumb="img/slider/3a.jpg" class="pmslide_2"><img src="img/slider/slide3.jpg" alt="img02" />
+                    <li data-thumb="frontend-resources/img/slider/3a.jpg" class="pmslide_2"><img src="frontend-resources/img/slider/slide3.jpg" alt="img02" />
                         
                         <div class="pm-holder">
                             <div class="pm-caption">
@@ -368,7 +368,7 @@
                                   <span class="pm-caption-decription">
                                     Book your next private party or event with Vienna
                                   </span>
-                                  <a href="book-an-event.html" class="pm-slide-btn animated">Book Your Event Now <i class="fa fa-chevron-right"></i></a>
+                                  <a href="#" class="pm-slide-btn animated">Book Your Event Now <i class="fa fa-chevron-right"></i></a>
                                   
                             </div>
                         </div>
@@ -384,8 +384,11 @@
  	<!-- SLIDER AREA end -->
         
         <!-- BODY CONTENT starts here -->
+        <div class="container">
+            
         <?php echo $content; ?>
-        
+            
+        </div>
         <!-- BODY CONTENT end -->
         
         <div class="pm-fat-footer">
@@ -393,7 +396,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
-                    	<img src="img/vienna-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
+                    	<img src="frontend-resources/img/vienna-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
                         <p>
                         Vienna a premium restaurant theme designed for restaurant and bar owners. This theme features many practical elements such as a catering and event form, photo gallery, events system, blog system and a menu system. Vienna is also WordPress and Woocommerce ready and is designed on an 1170 grid for bootstrap 3.
                         </p>
@@ -403,27 +406,27 @@
                       <ul class="pm-recent-blog-posts">
                             <!-- Post -->
                             <li>
-                                <div class="pm-recent-blog-post-thumb" style="background-image:url(img/posts/p1.jpg);"></div>
+                                <div class="pm-recent-blog-post-thumb" style="background-image:url(frontend-resources/img/posts/p1.jpg);"></div>
                                 <div class="pm-recent-blog-post-details">
-                                    <a href="http://projects.pulsarmedia.ca/vienna/blog-single-post.html">Picking the best spices and ingredients for your next dish</a>
+                                    <a href="#">Picking the best spices and ingredients for your next dish</a>
                                     <p class="pm-comment-count"><i class="fa fa-comment"></i> 8 Comments</p>
                                 </div>
                             </li>
                             <!-- Post end -->
                             <!-- Post -->
                             <li>
-                                <div class="pm-recent-blog-post-thumb" style="background-image:url(img/posts/p2.jpg);"></div>
+                                <div class="pm-recent-blog-post-thumb" style="background-image:url(frontend-resources/img/posts/p2.jpg);"></div>
                                 <div class="pm-recent-blog-post-details">
-                                    <a href="http://projects.pulsarmedia.ca/vienna/blog-single-post.html">The secrets to creating the perfect Italian dish</a>
+                                    <a href="#">The secrets to creating the perfect Italian dish</a>
                                     <p class="pm-comment-count"><i class="fa fa-comment"></i> 12 Comments</p>
                                 </div>
                             </li>
                             <!-- Post end -->
                             <!-- Post -->
                             <li>
-                                <div class="pm-recent-blog-post-thumb" style="background-image:url(img/posts/p3.jpg);"></div>
+                                <div class="pm-recent-blog-post-thumb" style="background-image:url(frontend-resources/img/posts/p3.jpg);"></div>
                                 <div class="pm-recent-blog-post-details">
-                                    <a href="http://projects.pulsarmedia.ca/vienna/blog-single-post.html">The life and culture of Venice, Italy</a>
+                                    <a href="#">The life and culture of Venice, Italy</a>
                                     <p class="pm-comment-count"><i class="fa fa-comment"></i> 4 Comments</p>
                                 </div>
                             </li>
@@ -439,7 +442,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/1.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/1.jpg">
                             </a>
                         </div>
                         
@@ -447,7 +450,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/2.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/2.jpg">
                             </a>
                         </div>
                         
@@ -455,7 +458,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/3.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/3.jpg">
                             </a>
                         </div>
                         
@@ -463,7 +466,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/4.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/4.jpg">
                             </a>
                         </div>
                         
@@ -471,7 +474,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/5.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/5.jpg">
                             </a>
                         </div>
                         
@@ -479,7 +482,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/6.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/6.jpg">
                             </a>
                         </div>
                         
@@ -487,7 +490,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/7.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/7.jpg">
                             </a>
                         </div>
                         
@@ -495,7 +498,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/8.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/8.jpg">
                             </a>
                         </div>
                         
@@ -503,7 +506,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/9.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/9.jpg">
                             </a>
                         </div>
                         
@@ -511,7 +514,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/10.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/10.jpg">
                             </a>
                         </div>
                         
@@ -519,7 +522,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/11.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/11.jpg">
                             </a>
                         </div>
                         
@@ -527,7 +530,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="img/flickr/12.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/12.jpg">
                             </a>
                         </div>
                         
@@ -540,7 +543,7 @@
                       
                       <div class="pm-event-widget-container">
                       	
-                        <div class="pm-event-widget-img" style="background-image:url(img/events/1.jpg);">
+                        <div class="pm-event-widget-img" style="background-image:url(frontend-resources/img/events/1.jpg);">
                         	<div class="pm-event-widget-date-container">
                             	<p class="pm-event-widget-month">JUL</p>
                                 <p class="pm-event-widget-day">28</p>
@@ -613,7 +616,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 pm-footer-copyright-col">
-                        <p>©2014 VIENNA. Produced by <a href="http://www.pulsarmedia.ca" target="_blank">Pulsar Media</a></p>
+                        <p>©2016 AmarChai. Produced by <a href="#" target="_blank">AmarChai</a></p>
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12 pm-footer-navigation-col">
                         <ul class="pm-footer-navigation" id="pm-footer-nav">
@@ -636,23 +639,23 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/jquery.viewport.mini.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="bootstrap3/js/bootstrap.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/owl-carousel/owl.carousel.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/jquery.tooltip.js"></script>
-    <script src="js/jquery.hoverPanel.js"></script>
-    <script src="js/superfish/superfish.js"></script>
-    <script src="js/superfish/hoverIntent.js"></script>
-    <script src="js/tinynav.js"></script>
-    <script src="js/stellar/jquery.stellar.js"></script>
-    <script src="js/countdown/countdown.js"></script>
-    <script src="js/theme-color-selector/theme-color-selector.js"></script>
-	<script src="js/wow/wow.min.js"></script>
-    <script src="js/pulse/jquery.PMSlider.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/jquery-2.1.1.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/jquery.viewport.mini.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/jquery.easing.1.3.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/modernizr.custom.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/owl-carousel/owl.carousel.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/main.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/jquery.tooltip.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/jquery.hoverPanel.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/superfish/superfish.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/superfish/hoverIntent.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/tinynav.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/stellar/jquery.stellar.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/countdown/countdown.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/theme-color-selector/theme-color-selector.js"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/wow/wow.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/pulse/jquery.PMSlider.js"></script>
         
     <p id="back-top" class="visible-lg visible-md visible-sm"> </p>
     
