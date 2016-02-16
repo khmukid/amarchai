@@ -75,7 +75,8 @@
   <div class="pm-mobile-global-menu">
                 	
     <div class="pm-mobile-global-menu-logo">
-        <a href="index.html"><img src="frontend-resources/img/vienna-logo.png" alt="Vienna Restaurant"></a> 
+<!--        <a href="index.html"><img src="" alt="Vienna Restaurant"></a> -->
+        <img src="../../../frontend-resources/img/logo-final.jpg" alt=""/>
     </div>
     
     <div class="pm-mobile-global-menu-search">
@@ -127,7 +128,7 @@
   
   <!-- Theme color selector -->
   <div id="pm_theme_color_selector">
-        <a class="pm_theme_color_selector_btn"><i class="typcn typcn-cog"></i></a>
+<!--        <a class="pm_theme_color_selector_btn"><i class="typcn typcn-cog"></i></a>-->
         <p class="pm_theme_color_selector_title">Style Sampler</p>
 
         <div class="pm_theme_color_selector_container">
@@ -197,45 +198,50 @@
             
             	<div class="row">
                 	
-                    <div class="col-lg-5 col-md-5 col-sm-6">
-                    	
-                        <div class="pm-sub-menu-info">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    	<div class="pm-sub-menu-book-event">
+                        		<a href="book-an-event.html"><i class="fa fa-users"></i> Organizing an event?</a>
+                        </div>
+<!--                        <div class="pm-sub-menu-info">
                         	<p class="pm-address"><i class="fa fa-map-marker"></i> 4 Main Street, New York, NY 02489</p>
                             <p class="pm-contact"><i class="fa fa-mobile-phone"></i> 1-(800)-555-5555</p>
-                        </div>
+                        </div>-->
                                                 
+                    </div>
+                    
+                     <div class="col-lg-3 col-md-3 col-sm-6 visible-lg visible-md pm-book-event">
+                    	<div class="pm-sub-menu-book-event">
+                            <a href="#"><i class="fa fa-search"></i> Search for Venues</a>
+                        </div>
                     </div>
                     
                     <div class="col-lg-2 col-md-2 col-sm-6 visible-lg visible-md pm-book-event">
                     	<div class="pm-sub-menu-book-event">
-                        	<a href="book-an-event.html">Book an Event <i class="fa fa-calendar"></i></a>
+                        	<a href="book-an-event.html"><i class="fa fa-university"></i> Have a venue? </a>
                         </div>
                     </div>
                     
-                    <div class="col-lg-5 col-md-5 col-sm-6">
-                    	<ul class="pm-sub-navigation">
-                        	<li>
-                                <div class="pm-dropdown pm-language-selector-menu">
-                                    <div class="pm-dropmenu">
-                                        <p class="pm-menu-title">Language</p>
-                                        <i class="fa fa-angle-down"></i>
-                                    </div>
-                                    <div class="pm-dropmenu-active">
-                                        <ul>
-                                           <li><a href="index.html#">English</a></li>
-                                           <li><a href="index.html#">Italian</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
+                   
+                    <div class="col-lg-4 col-md-4 col-sm-8 visible-lg visible-md pm-book-event pull-right">
+                       <div class="pm-sub-menu-book-event">
+                           <a href="#"><i class="fa fa-sign-in"></i> Venue Log In</a>
+                       </div>
+                    </div>
+                    
+
+<!--                    <div class="col-lg-4 col-md-4 col-sm-6 visible-lg visible-md pm-book-event">
+                        <div class="pm-sub-menu-book-event">
+                        <ul>
+                        	
+                            
+                            <li class="pm-search-btn-li"><a href="index.html#" class="pm-search-btn" id="pm-search-btn"><i class="fa fa-search"></i> Search for Venues</a></li>
+                            <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>
                             <li><a href="about-us.html">About Us</a></li>
                             <li><a href="contact-us.html">Contact Us</a></li>
-                            <li class="pm-search-btn-li"><a href="index.html#" class="pm-search-btn" id="pm-search-btn"><i class="fa fa-search"></i></a></li>
-                            <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>
                         </ul>
                     </div>
                     
-                    
+                    </div>-->
                 </div>
             
             </div>
@@ -253,7 +259,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="index.html"><img src="frontend-resources/img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Vienna Restaurant"></a> 
+                    		<a href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
+<!--                            <img src="../../../frontend-resources/img/logo-final.png" alt=""/>-->
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
@@ -270,38 +277,40 @@
                         	<ul class="sf-menu pm-nav">
                         
                                 <li><a href="index.html">Home</a></li>
+                                
                                 <li>
-                                    <a href="index.html#">Menus</a>
+                                    <a href="index.html#">Venues</a>
                                     <ul>
-                                        <li><a href="menus.html">Breakfast</a></li>
-                                        <li><a href="menus.html">Lunch</a></li>
-                                        <li><a href="menus.html">Dinner</a></li>
+                                        <li><a href="menus.html">Find Venues</a></li>
+                                        <li><a href="menus.html">Browse Venues</a></li>
+                                        <li><a href="menus.html">Compare Venues</a></li>
+                                        <li><a href="gallery.html">Ask a Venue Expert </a></li>
+                                        <li><a href="gallery.html">Best Deals! </a></li>                     
                                     </ul>
                                 </li>
-                                <li><a href="gallery.html">Gallery</a></li>
+                               
                                 <li>
-                                	<a href="index.html#">Events</a>
-                                    <ul>
-                                        <li><a href="book-an-event.html">Book an Event</a></li>
-                                        <li><a href="events.html">Browse Events</a></li>
-                                        <!--<li><a href="#">Social Events</a></li>-->
-                                    </ul>
-                                </li>
-                                <li>
-                                	<a href="index.html#">News</a>
-                                    <ul>
-                                        <li><a href="news.html">News Full Width</a></li>
-                                        <li><a href="news-with-sidebar.html">News with Sidebar</a></li>
+                                	<a href="index.html#">About Us</a>
+                                    <ul>      
+                                        <li><a href="events.html">Why Amar Chai Venue?</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                	<a href="index.html#">Store</a>
+                                	<a href="index.html#">Contact Us</a>
                                     <ul>
-                                        <li><a href="store.html">Browse Store</a></li>
-                                        <li><a href="cart.html">View Cart</a></li>
+                                        <li><a href="store.html">Social Media</a></li>
+                                        <li><a href="cart.html">Meet the Team</a></li>
+                                        <li><a href="cart.html">Leave a Message</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="catering.html">Catering</a></li>
+                                <li><a href="catering.html">Terms & Conditions</a>
+                                    <ul>
+                                        <li><a href="book-an-event.html">How It Works</a></li>
+                                        <li><a href="book-an-event.html">Our Rating Policy</a></li>
+                                        <li><a href="events.html">Privacy Policy</a></li>
+                                    </ul>
+                                </li>
+                                
                             
                             </ul>
                         

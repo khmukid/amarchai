@@ -600,10 +600,13 @@ h6 {
 
 /* 9. Sub-Menu  */
 .pm-sub-menu-container {
-	background-color:#000000;
+	//background-color:#000000;
 	position:relative;
 	z-index:99997;
-	background-image:url(../img/header/sub-menu-bg-dark.jpg);
+	//background-image:url(../img/header/sub-menu-bg-dark.jpg);
+        padding: 2px;
+        border: 1px solid white ;
+        border-bottom-color: #CCC;
 }
 
 .pm-sub-menu-info {
@@ -634,8 +637,8 @@ h6 {
 }
 
 .pm-sub-menu-book-event a {
-	background-color: #f1482b;
-    color: white;
+    background-color: transparent;
+    color: #ED4739;
     display: block;
     font-family: 'Cantata One';
     font-size: 14px;
@@ -649,10 +652,11 @@ h6 {
 	-moz-transition:all 0.3s;
 	-webkit-transition:all 0.3s;
 	-o-transition:all 0.3s;
+        list-style: none;
 }
 
 .pm-sub-menu-book-event a:hover {
-	background-color:#000;
+	 text-decoration: underline !important;
 }
 
 .pm-sub-menu-book-event a i {
@@ -663,8 +667,9 @@ h6 {
 .pm-sub-navigation {
 	list-style:none;
 	padding:0;
-	margin:7px 0 0;
+	//margin:7px 0 0;
 	float:right;
+        
 }
 
 .pm-sub-navigation li:before {
@@ -689,9 +694,9 @@ h6 {
 .pm-sub-navigation a {
 	font-family: 'Cantata One';
 	font-weight:300;
-	font-size:12px;
-	color:white;
-	
+	//font-size:12px;
+	background-color: transparent;
+    color: #ED4739;
 	transition:all 0.3s;
 	-moz-transition:all 0.3s;
 	-webkit-transition:all 0.3s;
@@ -720,12 +725,13 @@ h6 {
 
 /* 10. Header area  */
 header {
-	background-image:url(../img/header/header-gradient.png);
+	/*background-image:url(../img/header/header-gradient.png);*/
+        background-color: white !important;
 	background-repeat:repeat-x;
 	background-position:0px -50px;
-	padding:40px 0;
+	padding:5px 0;
 	width:100%;	
-	height:170px;
+	//height:170px;
 	position:absolute;
 	z-index:9999;
 	
@@ -754,11 +760,13 @@ header.fixed {
 	-moz-transition:all 0.3s;
 	-webkit-transition:all 0.3s;
 	-o-transition:all 0.3s;
+        height: 50px !important;
 }
 
 header.fixed .pm-header-logo {
 	max-width:35%;	
 	margin-top:9px;
+        height: 50px !important;
 }
 
 .pm-boxed-mode header.fixed {
@@ -1115,7 +1123,7 @@ header.fixed .pm-header-logo {
 	line-height:50px;
 	font-family:'Cantata One';
 	font-weight:100;
-	color:white;
+	color:#093758 !important;
 	text-transform:uppercase;
 	font-size:12px;
 	border:0px solid grey !important;
@@ -1128,7 +1136,7 @@ header.fixed .pm-header-logo {
 }
 
 .sf-menu a:hover {
-	color:#f1482b;	
+	background:#5cb85c;	
 }
 
 .sf-sub-indicator {
@@ -1136,7 +1144,7 @@ header.fixed .pm-header-logo {
 	background:url("superfish/img/arrows-white.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0) !important;
 }
 .sf-menu li {
-	background-color:transparent !important;	
+	background-color: white !important;	
 }
 
 /* Drop menu level 1 */
@@ -1144,7 +1152,7 @@ header.fixed .pm-header-logo {
 	box-shadow:none !important;
 	background-color:rgba(0,0,0,.85);
 	padding:0 20px;
-	border-top:3px solid #f1482b;
+	border-top:3px solid #EE473A;
 }
 
 .sf-menu ul li {
@@ -1164,7 +1172,7 @@ header.fixed .pm-header-logo {
 .sf-menu ul li a {
 	font-family:'Cantata One';
 	font-weight:100;
-	color:white;
+	color:#f1482b;
 	border-left:0px solid #e0e0e0;	
 	padding-left:20px;	
 	padding-right:20px;	
