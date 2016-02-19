@@ -9,6 +9,8 @@
 </div>
 
 <!-- SUB-HEADER area end -->
+
+<!-- BODY CONTENT starts here -->
 <div class="container pm-containerPadding-top-60">
     <div class="row">
 
@@ -42,3 +44,132 @@
         </div>
     </div>
 </div>
+
+<!-- Staff filter system -->
+        <div class="container pm-containerPadding-top-60 pm-containerPadding-bottom-60">
+        	<div class="row">
+            
+                <div class="col-lg-12 pm-containerPadding-bottom-40">
+                	
+                    <div class="pm-featured-header-container">
+                    
+                    	<!-- Featured panel header -->
+                        <div class="pm-featured-header-title-container news">
+                        	<p class="pm-featured-header-title">Meet our awesome staff</p>
+                            <p class="pm-featured-header-message">Team work and co-operation is what makes Vienna great</p>
+                        </div>
+                        <!-- Featured panel header end -->
+                        
+                    </div>
+                    
+                </div><!-- /.col-lg-12 -->
+                
+                <!-- staff item -->
+                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
+                    <div class="pm-staff-item-container">
+                    	<div class="pm-staff-item-img-container" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/staff/staff1.jpg);">
+                        	<span></span>
+                        	<div class="pm-staff-item-img-quote">
+                            	<p>Work hard and play hard...its essential for success!</p>
+                            </div>
+<!--                            <div class="pm-staff-item-img-read-more">
+                            	<a href="about-us.html#">View Profile &raquo;</a>
+                            </div>-->
+                        </div>
+                        
+                        <div class="pm-staff-item-desc">
+                            <p class="pm-staff-item-name">Joe Vienna</p>
+                            <p class="pm-staff-item-title">Chief Operator &amp; Owner</p>
+                            
+                            <div class="pm-divider"></div>
+                            
+                            <p class="pm-staff-item-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada orci nec tortor tincidunt <a href="about-us.html#">{...}</a> </p>
+                            
+                            <div class="pm-divider"></div>
+                            
+                            <ul class="pm-staff-social-icons">
+                            	<li><a href="about-us.html#" class="fa fa-twitter"></a></li>
+                                <li><a href="about-us.html#" class="fa fa-facebook"></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
+                </div><!-- /.col-lg-4 -->
+                <!-- /staff item -->
+                
+                <!-- staff item -->
+                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
+                    <div class="pm-staff-item-container">
+                    	<div class="pm-staff-item-img-container" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/staff/staff2.jpg);">
+                        	<span></span>
+                        	<div class="pm-staff-item-img-quote">
+                            	<p>Work hard and play hard...its essential for success!</p>
+                            </div>
+<!--                            <div class="pm-staff-item-img-read-more">
+                            	<a href="about-us.html#">View Profile &raquo;</a>
+                            </div>-->
+                        </div>
+                        
+                        <div class="pm-staff-item-desc">
+                        	<p class="pm-staff-item-name">Samantha clark</p>
+                            <p class="pm-staff-item-title">Event co-ordinator</p>
+                            
+                            <div class="pm-divider"></div>
+                            
+                            <p class="pm-staff-item-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada orci nec tortor tincidunt <a href="about-us.html#">{...}</a> </p>
+                            
+                            <div class="pm-divider"></div>
+                            
+                            <ul class="pm-staff-social-icons">
+                            	<li><a href="about-us.html#" class="fa fa-twitter"></a></li>
+                                <li><a href="about-us.html#" class="fa fa-facebook"></a></li>
+                                <li><a href="about-us.html#" class="fa fa-linkedin"></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
+                </div><!-- /.col-lg-4 -->
+                <!-- /staff item -->
+                
+                <!-- staff item -->
+                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
+                    <div class="pm-staff-item-container">
+                    	<div class="pm-staff-item-img-container" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/staff/staff3.jpg);">
+                        	<span></span>
+                        	<div class="pm-staff-item-img-quote">
+                            	<p>Work hard and play hard...its essential for success!</p>
+                            </div>
+<!--                            <div class="pm-staff-item-img-read-more">
+                            	<a href="about-us.html#">View Profile &raquo;</a>
+                            </div>-->
+                        </div>
+                        
+                        <div class="pm-staff-item-desc">
+                        	<p class="pm-staff-item-name">jay morrison</p>
+                            <p class="pm-staff-item-title">General Manager</p>
+                            
+                            <div class="pm-divider"></div>
+                            
+                            <p class="pm-staff-item-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada orci nec tortor tincidunt <a href="about-us.html#">{...}</a> </p>
+                            
+                            <div class="pm-divider"></div>
+                            
+                            <ul class="pm-staff-social-icons">
+                            	<li><a href="about-us.html#" class="fa fa-twitter"></a></li>
+                                <li><a href="about-us.html#" class="fa fa-facebook"></a></li>
+                                <li><a href="about-us.html#" class="fa fa-google-plus"></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
+                </div><!-- /.col-lg-4 -->
+                <!-- /staff item -->
+                
+            </div>
+        </div>
+        <!-- Staff filter system end -->
+        
+<!-- BODY CONTENT end -->
