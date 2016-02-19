@@ -32,6 +32,12 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+        
+        public function actionSample()
+	{
+            $this->layout='frontend';
+            $this->render('sample_page');
+	}
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -52,6 +58,7 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+            /*
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
@@ -70,7 +77,9 @@ class SiteController extends Controller
 				$this->refresh();
 			}
 		}
-		$this->render('contact',array('model'=>$model));
+		$this->render('contact',array('model'=>$model));*/
+            $this->layout='frontend';
+            $this->render('contact');
 	}
 
 	/**

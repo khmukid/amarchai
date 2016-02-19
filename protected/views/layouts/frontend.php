@@ -245,19 +245,6 @@
         	<div class="container">
             
             	<div class="row">
-                	
-<!--                    <div class="col-lg-2 col-md-2 col-sm-12">
-                    	
-                        <div class="pm-header-logo-container">
-                    		<a href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
-                        </div>
-                        
-                        <div class="pm-header-mobile-btn-container">
-                            <button type="button" class="navbar-toggle pm-main-menu-btn" id="pm-mobile-menu-trigger" ><i class="fa fa-bars"></i></button>
-                        </div>
-                    
-                    </div>-->
-                    
                     <div class="col-lg-10 col-md-10 col-sm-8 pm-main-menu">
                                         
                     	<nav class="navbar-collapse collapse">
@@ -279,18 +266,17 @@
                                
                                 <li>
                                 	<a href="index.html#">Register Venue </a>
-    
                                 </li>
                                 
                                 <li>
-                                	<a href="index.html#">Best Deals! </a>
+                                    <a href="index.php?r=site/sample">Sample Page</a>
     
                                 </li>
                                 <li>
                                 	<a href="index.html#">Contact Us</a>
                                     <ul>
+                                        <li><a href="index.php?r=site/contact">Find Us</a></li>
                                         <li><a href="store.html">Social Media</a></li>
-                                        <li><a href="cart.html">Meet the Team</a></li>
                                         <li><a href="cart.html">Leave a Message</a></li>
                                         <li><a href="events.html">Why Amar Chai Venue?</a></li>
                                     </ul>
