@@ -600,12 +600,13 @@ h6 {
 
 /* 9. Sub-Menu  */
 .pm-sub-menu-container {
-	/*background-color:#000000;*/
+	//background-color:#2F2F2F !important ;
 	position:relative;
 	z-index:99997;
-	/*background-image:url(../img/header/sub-menu-bg-dark.jpg);*/
+	background-image:url(../img/header/sub-menu-bg-dark.jpg);
+        
         padding: 2px;
-        border: 1px solid white ;
+     //   border: 1px solid white ;
         border-bottom-color: #CCC;
 }
 
@@ -638,7 +639,7 @@ h6 {
 
 .pm-sub-menu-book-event a {
     background-color: transparent;
-    color: #ED4739;
+    color: #F14839;
     display: block;
     font-family: 'Cantata One';
     font-size: 14px;
@@ -726,7 +727,7 @@ h6 {
 /* 10. Header area  */
 header {
 	/*background-image:url(../img/header/header-gradient.png);*/
-        background-color: white !important;
+        background-color: #093758 !important;
 	background-repeat:repeat-x;
 	background-position:0px -50px;
 	padding:5px 0;
@@ -763,9 +764,9 @@ header.fixed {
 }
 
 header.fixed .pm-header-logo {
-	max-width:35%;	
+	//max-width:100%;	
 	margin-top:9px;
-        height: 50px !important;
+        max-height: 40px !important;
 }
 
 .pm-boxed-mode header.fixed {
@@ -845,7 +846,7 @@ header.fixed .pm-header-logo {
 /* 14. Fat Footer  */
 .pm-fat-footer {
 	width:100%;
-	background-color:#121212;
+	background-color:#093748;
 	padding:60px 0px;
 	background-repeat:no-repeat;
 }
@@ -1122,7 +1123,7 @@ header.fixed .pm-header-logo {
 	line-height:50px;
 	font-family:'Cantata One';
 	font-weight:100;
-	color:#093758 !important;
+	color:white !important;
 	text-transform:uppercase;
 	font-size:12px;
 	border:0px solid grey !important;
@@ -1135,7 +1136,7 @@ header.fixed .pm-header-logo {
 }
 
 .sf-menu a:hover {
-	background:#5cb85c;	
+	color: #EE473A !important;	
 }
 
 .sf-sub-indicator {
@@ -1143,13 +1144,13 @@ header.fixed .pm-header-logo {
 	background:url("superfish/img/arrows-white.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0) !important;
 }
 .sf-menu li {
-	background-color: white !important;	
+	background-color: transparent !important;	
 }
 
 /* Drop menu level 1 */
 .sf-menu ul {
 	box-shadow:none !important;
-	background-color:rgba(0,0,0,.85);
+	background-color:#093758;
 	padding:0 20px;
 	border-top:3px solid #EE473A;
 }

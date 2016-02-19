@@ -256,7 +256,7 @@
             
             	<div class="row">
                 	
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-2 col-md-2 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
                     		<a href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
@@ -270,7 +270,7 @@
                     
                     </div>
                     
-                    <div class="col-lg-8 col-md-8 col-sm-8 pm-main-menu">
+                    <div class="col-lg-10 col-md-10 col-sm-8 pm-main-menu">
                                         
                     	<nav class="navbar-collapse collapse">
                         
@@ -285,15 +285,18 @@
                                         <li><a href="menus.html">Browse Venues</a></li>
                                         <li><a href="menus.html">Compare Venues</a></li>
                                         <li><a href="gallery.html">Ask a Venue Expert </a></li>
-                                        <li><a href="gallery.html">Best Deals! </a></li>                     
+                                        <li><a href="gallery.html">Featured Venue</a></li>                     
                                     </ul>
                                 </li>
                                
                                 <li>
-                                	<a href="index.html#">About Us</a>
-                                    <ul>      
-                                        <li><a href="events.html">Why Amar Chai Venue?</a></li>
-                                    </ul>
+                                	<a href="index.html#">Register Venue </a>
+    
+                                </li>
+                                
+                                <li>
+                                	<a href="index.html#">Best Deals! </a>
+    
                                 </li>
                                 <li>
                                 	<a href="index.html#">Contact Us</a>
@@ -301,6 +304,7 @@
                                         <li><a href="store.html">Social Media</a></li>
                                         <li><a href="cart.html">Meet the Team</a></li>
                                         <li><a href="cart.html">Leave a Message</a></li>
+                                        <li><a href="events.html">Why Amar Chai Venue?</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="catering.html">Terms & Conditions</a>
@@ -330,7 +334,7 @@
         <div class="pm-pulse-container" id="pm-pulse-container">
         
             <div id="pm-pulse-loader">
-                <img src="frontend-resources/js/pulse/img/ajax-loader.gif" alt="slider loading" />
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/pulse/img/ajax-loader.gif" alt="slider loading" />
             </div>
             
             <div id="pm-slider" class="pm-slider">
@@ -340,27 +344,27 @@
                 <ul class="pm-slides-container" id="pm_slides_container">
                     
                     <!-- FULL WIDTH slides -->
-                    <li data-thumb="frontend-resources/img/slider/1a.jpg" class="pmslide_0"><img src="frontend-resources/img/slider/slide1.jpg" alt="img01" />
+                    <li data-thumb="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/1a.jpg" class="pmslide_0"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/slide1.jpg" alt="img01" />
                     
                         <div class="pm-holder">
                             <div class="pm-caption">
-                                  <h1><span>Welcome to Vienna</span></h1>
+                                  <h1><span>Welcome to আমার চাই ভেন্যু</span></h1>
                                   <span class="pm-caption-decription">
-                                    A premium restaurant theme 
+                                    Rabbit’s Hat Ltd. এর একটি উদ্যোগ
                                   </span>
-                                  <a href="menus.html" class="pm-slide-btn animated">View our menus <i class="fa fa-chevron-right"></i></a>
+                                  <a href="menus.html" class="pm-slide-btn animated">View our venues <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                     
                     </li>
                     
-                    <li data-thumb="frontend-resources/img/slider/2a.jpg" class="pmslide_1"><img src="frontend-resources/img/slider/slide2.jpg" alt="img02" />
+                    <li data-thumb="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/2a.jpg" class="pmslide_1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/slide2.jpg" alt="img02" />
                         
                         <div class="pm-holder">
                             <div class="pm-caption">
-                                  <h1><span>Witness the beauty</span></h1>
+                                  <h1><span>Venue Booking!</span></h1>
                                   <span class="pm-caption-decription">
-                                    Browse our gallery and see what makes Vienna great!
+                                    Browse our gallery and see how we make it easier!
                                   </span>
                                   <a href="gallery.html" class="pm-slide-btn animated">View our Gallery <i class="fa fa-chevron-right"></i></a>
                                   
@@ -369,13 +373,13 @@
                                             
                     </li>
                     
-                    <li data-thumb="frontend-resources/img/slider/3a.jpg" class="pmslide_2"><img src="frontend-resources/img/slider/slide3.jpg" alt="img02" />
+                    <li data-thumb="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/3a.jpg" class="pmslide_2"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/slide3.jpg" alt="img02" />
                         
                         <div class="pm-holder">
                             <div class="pm-caption">
                                   <h1><span>Book with us!</span></h1>
                                   <span class="pm-caption-decription">
-                                    Book your next private party or event with Vienna
+                                    Book your next private party or event with আমার চাই ভেন্যু
                                   </span>
                                   <a href="#" class="pm-slide-btn animated">Book Your Event Now <i class="fa fa-chevron-right"></i></a>
                                   
@@ -405,9 +409,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
-                    	<img src="frontend-resources/img/vienna-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
+                    	<img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive" alt="Vienna Restaurant"> 
                         <p>
-                        Vienna a premium restaurant theme designed for restaurant and bar owners. This theme features many practical elements such as a catering and event form, photo gallery, events system, blog system and a menu system. Vienna is also WordPress and Woocommerce ready and is designed on an 1170 grid for bootstrap 3.
+                           aaaaaaaaaaaaaaaaaaaaa
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
@@ -415,16 +419,16 @@
                       <ul class="pm-recent-blog-posts">
                             <!-- Post -->
                             <li>
-                                <div class="pm-recent-blog-post-thumb" style="background-image:url(frontend-resources/img/posts/p1.jpg);"></div>
+                                <div class="pm-recent-blog-post-thumb" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/posts/p1.jpg);"></div>
                                 <div class="pm-recent-blog-post-details">
-                                    <a href="#">Picking the best spices and ingredients for your next dish</a>
+                                    <a href="#">Picking the best venue for your next party</a>
                                     <p class="pm-comment-count"><i class="fa fa-comment"></i> 8 Comments</p>
                                 </div>
                             </li>
                             <!-- Post end -->
                             <!-- Post -->
                             <li>
-                                <div class="pm-recent-blog-post-thumb" style="background-image:url(frontend-resources/img/posts/p2.jpg);"></div>
+                                <div class="pm-recent-blog-post-thumb" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/posts/p2.jpg);"></div>
                                 <div class="pm-recent-blog-post-details">
                                     <a href="#">The secrets to creating the perfect Italian dish</a>
                                     <p class="pm-comment-count"><i class="fa fa-comment"></i> 12 Comments</p>
@@ -433,9 +437,9 @@
                             <!-- Post end -->
                             <!-- Post -->
                             <li>
-                                <div class="pm-recent-blog-post-thumb" style="background-image:url(frontend-resources/img/posts/p3.jpg);"></div>
+                                <div class="pm-recent-blog-post-thumb" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/posts/p3.jpg);"></div>
                                 <div class="pm-recent-blog-post-details">
-                                    <a href="#">The life and culture of Venice, Italy</a>
+                                    <a href="#">The life and culture of Dhaka, Bangladesh</a>
                                     <p class="pm-comment-count"><i class="fa fa-comment"></i> 4 Comments</p>
                                 </div>
                             </li>
@@ -451,7 +455,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/1.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/1.jpg">
                             </a>
                         </div>
                         
@@ -459,7 +463,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/2.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/2.jpg">
                             </a>
                         </div>
                         
@@ -467,7 +471,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/3.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/3.jpg">
                             </a>
                         </div>
                         
@@ -475,7 +479,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/4.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/4.jpg">
                             </a>
                         </div>
                         
@@ -483,7 +487,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/5.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/5.jpg">
                             </a>
                         </div>
                         
@@ -491,7 +495,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/6.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/6.jpg">
                             </a>
                         </div>
                         
@@ -499,7 +503,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/7.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/7.jpg">
                             </a>
                         </div>
                         
@@ -507,7 +511,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/8.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/8.jpg">
                             </a>
                         </div>
                         
@@ -515,7 +519,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/9.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/9.jpg">
                             </a>
                         </div>
                         
@@ -523,7 +527,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/10.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/10.jpg">
                             </a>
                         </div>
                         
@@ -531,7 +535,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/11.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/11.jpg">
                             </a>
                         </div>
                         
@@ -539,7 +543,7 @@
                             <a href="index.html#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
-                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="frontend-resources/img/flickr/12.jpg">
+                            	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/12.jpg">
                             </a>
                         </div>
                         
@@ -552,7 +556,7 @@
                       
                       <div class="pm-event-widget-container">
                       	
-                        <div class="pm-event-widget-img" style="background-image:url(frontend-resources/img/events/1.jpg);">
+                        <div class="pm-event-widget-img" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/events/1.jpg);">
                         	<div class="pm-event-widget-date-container">
                             	<p class="pm-event-widget-month">JUL</p>
                                 <p class="pm-event-widget-day">28</p>
@@ -561,9 +565,9 @@
                         
                         <div class="pm-event-widget-desc">
                         	
-                            <p class="pm-event-widget-desc-title">Live music performance</p>
+                            <p class="pm-event-widget-desc-title">Best Package of the year</p>
                             
-                            <p class="pm-event-widget-desc-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget…<a href="index.html#">{...}</a> </p>
+                            <p class="pm-event-widget-desc-excerpt">AAAAAAAA<a href="index.html#">{...}</a> </p>
                             
                         </div>
                         
@@ -625,7 +629,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 pm-footer-copyright-col">
-                        <p>©2016 AmarChai. Produced by <a href="#" target="_blank">AmarChai</a></p>
+                        <p>©2016 আমার চাই. Produced by <a href="#" target="_blank">আমার চাই</a></p>
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12 pm-footer-navigation-col">
                         <ul class="pm-footer-navigation" id="pm-footer-nav">
