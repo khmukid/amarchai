@@ -245,13 +245,13 @@
         	<div class="container">
             
             	<div class="row">
-                    <div class="col-lg-10 col-md-10 col-sm-8 pm-main-menu">
+                    <div class="col-lg-12 col-md-12 col-sm-10 pm-main-menu">
                                         
                     	<nav class="navbar-collapse collapse">
                         
                         	<ul class="sf-menu pm-nav">
                         
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php?r=site/index">Home</a></li>
                                 
                                 <li>
                                     <a href="index.html#">Venues</a>
@@ -270,7 +270,6 @@
                                 
                                 <li>
                                     <a href="index.php?r=site/sample">Sample Page</a>
-    
                                 </li>
                                 <li>
                                 	<a href="index.html#">Contact Us</a>
@@ -280,6 +279,9 @@
                                         <li><a href="cart.html">Leave a Message</a></li>
                                         <li><a href="events.html">Why Amar Chai Venue?</a></li>
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="index.php?r=site/about">About Us</a>
                                 </li>
                                 <li><a href="catering.html">Terms & Conditions</a>
                                     <ul>

@@ -38,6 +38,18 @@ class SiteController extends Controller
             $this->layout='frontend';
             $this->render('sample_page');
 	}
+        
+        public function actionContact()
+	{
+            $this->layout='frontend';
+            $this->render('contact');
+	}
+        
+        public function actionAbout()
+	{
+            $this->layout='frontend';
+            $this->render('about');
+	}
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -56,9 +68,9 @@ class SiteController extends Controller
 	/**
 	 * Displays the contact page
 	 */
-	public function actionContact()
+	/*public function actionContact()
 	{
-            /*
+            
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
@@ -77,11 +89,9 @@ class SiteController extends Controller
 				$this->refresh();
 			}
 		}
-		$this->render('contact',array('model'=>$model));*/
-            $this->layout='frontend';
-            $this->render('contact');
+		$this->render('contact',array('model'=>$model));
 	}
-
+*/
 	/**
 	 * Displays the login page
 	 */
