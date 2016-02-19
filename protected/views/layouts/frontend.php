@@ -163,8 +163,6 @@
    
     </div>
     <!-- Theme color selector -->
-    
-
 	<div id="pm_layout_wrapper" class="pm-full-mode"><!-- Use wrapper for wide or boxed mode -->
     
     	<!-- Search overlay -->
@@ -197,16 +195,22 @@
         	<div class="container">
             
             	<div class="row">
-                	
+                <div class="col-lg-2 col-md-2 col-sm-12">
+                    	
+                        <div class="pm-header-logo-container">
+                    		<a href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
+                        </div>
+                        
+                        <div class="pm-header-mobile-btn-container">
+                            <button type="button" class="navbar-toggle pm-main-menu-btn" id="pm-mobile-menu-trigger" ><i class="fa fa-bars"></i></button>
+                        </div>
+                    
+                    </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                     	<div class="pm-sub-menu-book-event">
                         		<a href="book-an-event.html"><i class="fa fa-users"></i> Organizing an event?</a>
                         </div>
-<!--                        <div class="pm-sub-menu-info">
-                        	<p class="pm-address"><i class="fa fa-map-marker"></i> 4 Main Street, New York, NY 02489</p>
-                            <p class="pm-contact"><i class="fa fa-mobile-phone"></i> 1-(800)-555-5555</p>
-                        </div>-->
-                                                
+                
                     </div>
                     
                      <div class="col-lg-3 col-md-3 col-sm-6 visible-lg visible-md pm-book-event">
@@ -222,26 +226,12 @@
                     </div>
                     
                    
-                    <div class="col-lg-4 col-md-4 col-sm-8 visible-lg visible-md pm-book-event pull-right">
+                    <div class="col-lg-2 col-md-3 col-sm-6 visible-lg visible-md pm-book-event pull-right">
                        <div class="pm-sub-menu-book-event">
                            <a href="#"><i class="fa fa-sign-in"></i> Venue Log In</a>
                        </div>
                     </div>
-                    
 
-<!--                    <div class="col-lg-4 col-md-4 col-sm-6 visible-lg visible-md pm-book-event">
-                        <div class="pm-sub-menu-book-event">
-                        <ul>
-                        	
-                            
-                            <li class="pm-search-btn-li"><a href="index.html#" class="pm-search-btn" id="pm-search-btn"><i class="fa fa-search"></i> Search for Venues</a></li>
-                            <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    
-                    </div>-->
                 </div>
             
             </div>
@@ -256,19 +246,17 @@
             
             	<div class="row">
                 	
-                    <div class="col-lg-2 col-md-2 col-sm-12">
+<!--                    <div class="col-lg-2 col-md-2 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
                     		<a href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
-<!--                            <img src="../../../frontend-resources/img/logo-final.png" alt=""/>-->
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
-                        	<!--<button type="button" class="navbar-toggle pm-main-menu-btn" id="pm-main-menu-btn" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>-->
                             <button type="button" class="navbar-toggle pm-main-menu-btn" id="pm-mobile-menu-trigger" ><i class="fa fa-bars"></i></button>
                         </div>
                     
-                    </div>
+                    </div>-->
                     
                     <div class="col-lg-10 col-md-10 col-sm-8 pm-main-menu">
                                         
@@ -328,80 +316,11 @@
                     
         </header>
         <!-- /Main navigation -->
-                
-        <!-- SLIDER AREA -->
-        
-        <div class="pm-pulse-container" id="pm-pulse-container">
-        
-            <div id="pm-pulse-loader">
-                <img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/js/pulse/img/ajax-loader.gif" alt="slider loading" />
-            </div>
-            
-            <div id="pm-slider" class="pm-slider">
-                
-                <div id="pm-slider-progress-bar"></div>
-            
-                <ul class="pm-slides-container" id="pm_slides_container">
-                    
-                    <!-- FULL WIDTH slides -->
-                    <li data-thumb="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/1a.jpg" class="pmslide_0"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/slide1.jpg" alt="img01" />
-                    
-                        <div class="pm-holder">
-                            <div class="pm-caption">
-                                  <h1><span>Welcome to আমার চাই ভেন্যু</span></h1>
-                                  <span class="pm-caption-decription">
-                                    Rabbit’s Hat Ltd. এর একটি উদ্যোগ
-                                  </span>
-                                  <a href="menus.html" class="pm-slide-btn animated">View our venues <i class="fa fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    
-                    </li>
-                    
-                    <li data-thumb="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/2a.jpg" class="pmslide_1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/slide2.jpg" alt="img02" />
-                        
-                        <div class="pm-holder">
-                            <div class="pm-caption">
-                                  <h1><span>Venue Booking!</span></h1>
-                                  <span class="pm-caption-decription">
-                                    Browse our gallery and see how we make it easier!
-                                  </span>
-                                  <a href="gallery.html" class="pm-slide-btn animated">View our Gallery <i class="fa fa-chevron-right"></i></a>
-                                  
-                            </div>
-                        </div>
-                                            
-                    </li>
-                    
-                    <li data-thumb="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/3a.jpg" class="pmslide_2"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/slider/slide3.jpg" alt="img02" />
-                        
-                        <div class="pm-holder">
-                            <div class="pm-caption">
-                                  <h1><span>Book with us!</span></h1>
-                                  <span class="pm-caption-decription">
-                                    Book your next private party or event with আমার চাই ভেন্যু
-                                  </span>
-                                  <a href="#" class="pm-slide-btn animated">Book Your Event Now <i class="fa fa-chevron-right"></i></a>
-                                  
-                            </div>
-                        </div>
-                                            
-                    </li>
-                                    
-                </ul>
-               
-            </div>
-        
-        </div>
-        
- 	<!-- SLIDER AREA end -->
-        
+         
         <!-- BODY CONTENT starts here -->
-        <div class="container">
-            
+
         <?php echo $content; ?>
-            
-        </div>
+
         <!-- BODY CONTENT end -->
         
         <div class="pm-fat-footer">
