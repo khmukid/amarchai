@@ -56,7 +56,7 @@
                     	<!-- Featured panel header -->
                         <div class="pm-featured-header-title-container news">
                         	<p class="pm-featured-header-title">Meet our awesome staff</p>
-                            <p class="pm-featured-header-message">Team work and co-operation is what makes Vienna great</p>
+                            <p class="pm-featured-header-message">Team work and co-operation is what makes AmarChai great</p>
                         </div>
                         <!-- Featured panel header end -->
                         
