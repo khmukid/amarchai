@@ -50,7 +50,11 @@ class SiteController extends Controller
             $this->layout='frontend';
             $this->render('about');
 	}
-
+public function actionPrivacy()
+	{
+            $this->layout='frontend';
+            $this->render('privacy');
+	}
 	/**
 	 * This is the action to handle external exceptions.
 	 */

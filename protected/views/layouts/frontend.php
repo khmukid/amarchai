@@ -287,7 +287,7 @@
                                     <ul>
                                         <li><a href="book-an-event.html">How It Works</a></li>
                                         <li><a href="book-an-event.html">Our Rating Policy</a></li>
-                                        <li><a href="events.html">Privacy Policy</a></li>
+                                        <li><a href="index.php?r=site/privacy">Privacy Policy</a></li>
                                     </ul>
                                 </li>
                                 
