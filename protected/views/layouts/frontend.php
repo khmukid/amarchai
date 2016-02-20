@@ -285,7 +285,7 @@
                                 </li>
                                 <li><a href="catering.html">Terms & Conditions</a>
                                     <ul>
-                                        <li><a href="book-an-event.html">How It Works</a></li>
+                                        <li><a href="index.php?r=site/howItWork">How It Works</a></li>
                                         <li><a href="book-an-event.html">Our Rating Policy</a></li>
                                         <li><a href="index.php?r=site/privacy">Privacy Policy</a></li>
                                     </ul>

@@ -50,6 +50,12 @@ class SiteController extends Controller
             $this->layout='frontend';
             $this->render('about');
 	}
+        
+         public function actionhowItWork()
+	{
+            $this->layout='frontend';
+            $this->render('howItWork');
+	}
 public function actionPrivacy()
 	{
             $this->layout='frontend';
