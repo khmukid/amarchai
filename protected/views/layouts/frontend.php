@@ -269,7 +269,7 @@
                                 </li>
                                 
                                 <li>
-                                    <a href="index.php?r=site/sample">Sample Page</a>
+                                    <a href="index.php?r=site/bestDeal">Best Deals!</a>
                                 </li>
                                 <li>
                                 	<a href="index.html#">Contact Us</a>

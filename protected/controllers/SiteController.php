@@ -33,10 +33,10 @@ class SiteController extends Controller
 		$this->render('index');
 	}
         
-        public function actionSample()
+        public function actionBestDeal()
 	{
             $this->layout='frontend';
-            $this->render('sample_page');
+            $this->render('bestDeal');
 	}
         
         public function actionContact()

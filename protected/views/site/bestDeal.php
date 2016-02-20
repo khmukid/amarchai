@@ -2,19 +2,28 @@
         <div class="pm-sub-header-container pm-parallax-panel" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
         	
             <div class="pm-sub-header-title-container">
-            	<p class="pm-sub-header-title"><span>News[Page Header]</span></p>
-                <p class="pm-sub-header-message">Bringing you the latest in cuisine and culture[page summary]</p>
+            	<p class="pm-sub-header-title"><span>Best Deals!</span></p>
+                <p class="pm-sub-header-message">There are numbers of offers out there. For your awesome event, pick the best deal here.</p>
             </div>
             
         </div>
  
 <!-- SUB-HEADER area end -->
-
 <!-- BODY CONTENT starts here -->
-<div class="container pm-containerPadding80">
+<div class="container pm-containerPadding-top-60">
+    <div class="row">
+        
+        <div class="col-lg-12">
+            <h4>
+            Your event is special and we are commited to give/provide you the best  packages! Pick the Best Deal out of hundreds for venues.
+            </h4>
+        </div>
+    </div>
+</div>
+<!--<div class="container pm-containerPadding80">
         	<div class="row">
             below design as per your page demand
-            	<!-- News post -->
+            	 News post 
                 <div class="col-lg-12 pm-column-spacing">
                 	
                     <article>
@@ -52,9 +61,9 @@
                     </article>
                                         
                 </div>
-                <!-- News post end -->
+                 News post end 
                 
-                <!-- News post -->
+                 News post 
                 <div class="col-lg-12 pm-column-spacing">
                 	
                     <article>
@@ -92,8 +101,8 @@
                     </article>
                                         
                 </div>
-                <!-- News post end -->
+                 News post end 
                 
             </div>
-        </div>
+        </div>-->
 <!-- BODY CONTENT end -->
