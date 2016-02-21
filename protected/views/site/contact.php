@@ -24,17 +24,17 @@
                 <div class="col-lg-4 col-md-4 col-sm-4 pm-column-spacing">
                 
                       <h6>Address</h6>
-                      <p>4 Main Street<br />New York, NY USA <br />02489</p>
+                      <p>Flat # F-1, House # 289, Road # 8/A<br />Dhanmondi R/A, Dhaka <br />1209</p>
                       
                       <div class="pm-divider" style="margin:20px 0;"></div>
                       
                       <h6>Telephone</h6>
-                      <p><strong>Restaurant:</strong> 1 (800) 555-5555<br /> <strong>Fax:</strong> 1 (800) 555-5556</p>
+                      <p><strong>Office:</strong> +8801973008333<br /> <strong>Fax:</strong> #######</p>
                       
                       <div class="pm-divider" style="margin:20px 0;"></div>
                       
                       <h6>Email</h6>
-                      <p><a href="mailto:info@viennarestaurant.com">info@viennarestaurant.com</a></p>
+                      <p><a href="mailto:mhfnoyon@gmail.com">mhfnoyon@gmail.com</a></p>
                       
                       <div class="pm-divider" style="margin:20px 0;"></div>
                       

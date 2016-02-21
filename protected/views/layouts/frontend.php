@@ -254,39 +254,39 @@
                                 <li><a href="index.php?r=site/index">Home</a></li>
                                 
                                 <li>
-                                    <a href="index.html#">Venues</a>
+                                    <a href="#">Venues</a>
                                     <ul>
-                                        <li><a href="menus.html">Find Venues</a></li>
-                                        <li><a href="menus.html">Browse Venues</a></li>
-                                        <li><a href="menus.html">Compare Venues</a></li>
-                                        <li><a href="gallery.html">Ask a Venue Expert </a></li>
-                                        <li><a href="gallery.html">Featured Venue</a></li>                     
+<!--                                        <li><a href="menus.html">Find Venues</a></li>-->
+                                        <li><a href="#">Browse Venues</a></li>
+                                        <li><a href="#">Compare Venues</a></li>
+                                        <li><a href="#">Ask a Venue Expert </a></li>
+                                        <li><a href="#">Featured Venue</a></li>                     
                                     </ul>
                                 </li>
                                
                                 <li>
-                                	<a href="index.html#">Register Venue </a>
+                                	<a href="#">Register Venue </a>
                                 </li>
                                 
                                 <li>
                                     <a href="index.php?r=site/bestDeal">Best Deals!</a>
                                 </li>
                                 <li>
-                                	<a href="index.html#">Contact Us</a>
+                                	<a href="index.php?r=site/contact">Contact Us</a>
                                     <ul>
                                         <li><a href="index.php?r=site/contact">Find Us</a></li>
-                                        <li><a href="store.html">Social Media</a></li>
-                                        <li><a href="cart.html">Leave a Message</a></li>
-                                        <li><a href="events.html">Why Amar Chai Venue?</a></li>
+                                        <li><a href="#">Social Media</a></li>
+                                        <li><a href="index.php?r=site/contact">Leave a Message</a></li>
+                                        <li><a href="#">Why Amar Chai Venue?</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="index.php?r=site/about">About Us</a>
                                 </li>
-                                <li><a href="catering.html">Terms & Conditions</a>
+                                <li><a href="#">Terms & Conditions</a>
                                     <ul>
                                         <li><a href="index.php?r=site/howItWork">How It Works</a></li>
-                                        <li><a href="book-an-event.html">Our Rating Policy</a></li>
+                                        <li><a href="#">Our Rating Policy</a></li>
                                         <li><a href="index.php?r=site/privacy">Privacy Policy</a></li>
                                     </ul>
                                 </li>

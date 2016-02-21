@@ -254,6 +254,44 @@ label {
 	background-color:#44619d;
 }
 
+.pm-rounded-search-btn {
+	min-width:100px;
+	display:inline-block;
+	padding:12px 20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Open sans';
+	font-size:14px;
+	font-weight:bold;
+	color:white !important;
+	margin:0px 0px;
+	text-align:center;
+	border:0px solid white;
+	
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-o-border-radius:4px;
+	
+	transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-webkit-transition:all 0.4s;
+	-o-transition:all 0.4s;
+}
+
+.pm-rounded-search-btn:hover {
+	color:white;
+	background-color:#333 !important;
+}
+
+.pm-rounded-search-btn.pm-primary {
+	background-color:#EF5438;
+}
+
+.pm-rounded-search-btn.pm-secondary {
+	background-color:#44619d;
+}
+
 /* Rounded Form button end */
 
 /* Shopping cart form */

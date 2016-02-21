@@ -375,6 +375,12 @@ video {
 	font-family:'Cantata One';
 }
 
+.pm-home-slider-div{
+    display: table;
+    margin: 1px auto !important;
+    padding:20px 50px;
+}
+
 .pm-slide-btn i {
 	padding:0 0 0 12px;
 	font-family:'FontAwesome';
