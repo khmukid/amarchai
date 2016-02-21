@@ -90,21 +90,135 @@
 
 <!-- SLIDER AREA end -->
 
-<div class="container">
-
-    <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-    <p>Congratulations! You have successfully created your Yii application.</p>
-
-    <p>You may change the content of this page by modifying the following two files:</p>
-    <ul>
-        <li>View file: <code><?php echo __FILE__; ?></code></li>
-        <li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-    </ul>
-
-    <p>For more details on how to further develop this application, please read
-        the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-        Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-        should you have any questions.</p>
-
-</div>
+<!-- BODY CONTENT starts here -->
+                
+        <!-- Gallery filter system -->
+        <div class="container pm-containerPadding-top-80">
+        	<div class="row">
+            
+                <div class="col-lg-12 pm-containerPadding-bottom-40">
+                	
+                    <div class="pm-featured-header-container">
+                    
+                    	<!-- Featured panel header -->
+                        <div class="pm-featured-header-title-container news">
+                        	<p class="pm-featured-header-title">Latest Venue In Front Of Your Eye </p>
+                            <p class="pm-featured-header-message">See what venue wait for you across the city</p>
+                        </div>
+                        <!-- Featured panel header end -->
+                        
+                        <!-- Filter menu -->
+<!--                        <div class="pm-isotope-filter-container">
+                        	<ul class="pm-isotope-filter-system">
+                            	<li class="pm-isotope-filter-system-expand">Expand <i class="fa fa-angle-down"></i></li>
+                            	<li><a href="events.html#" class="current">Past Events</a></li>
+                                <li><a href="events.html">Browse Events</a></li>
+                            </ul>
+                        </div>-->
+                        <!-- Filter menu end -->
+                    
+                    </div>
+                    
+                </div><!-- /.col-lg-12 -->
+                
+                
+                
+                <!-- event item -->
+                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
+                
+                    <div class="pm-event-item-container">
+                    	<div class="pm-event-item-img-container" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/venue/wedding-home_1.jpg);">
+                        	<div class="pm-event-item-date">
+                            	<p class="pm-event-item-month">Offer Price</p>
+                                <p class="pm-event-item-day">$500</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pm-event-item-desc">
+                        	<p class="pm-event-item-title">Wedding</p>
+                            <div class="pm-event-item-divider"></div>
+                            <p class="pm-event-item-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget <a href="#">{...}</a> </p>
+                            <div class="pm-event-item-divider"></div>
+                            <ul class="pm-event-item-btns">
+                            	<li><a href="#" class="pm-rounded-btn small pm-primary">more info</a></li>
+                                <li><a href="#" class="pm-rounded-btn small pm-secondary"><i class="fa fa-facebook"></i> &nbsp;fan page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div><!-- /.col-lg-4 -->
+                <!-- /event item -->
+                
+                <!-- event item -->
+                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
+                
+                    <div class="pm-event-item-container">
+                    	<div class="pm-event-item-img-container" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/venue/birthday-home-1.jpg);">
+                        	<div class="pm-event-item-date">
+                            	<p class="pm-event-item-month">Offer Price</p>
+                                <p class="pm-event-item-day">$1300</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pm-event-item-desc">
+                        	<p class="pm-event-item-title">Birthday</p>
+                            <div class="pm-event-item-divider"></div>
+                            <p class="pm-event-item-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget <a href="#">{...}</a> </p>
+                            <div class="pm-event-item-divider"></div>
+                            <ul class="pm-event-item-btns">
+                            	<li><a href="#" class="pm-rounded-btn small pm-primary">more info</a></li>
+                                <li><a href="#" class="pm-rounded-btn small pm-secondary"><i class="fa fa-facebook"></i> &nbsp;fan page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div><!-- /.col-lg-4 -->
+                <!-- /event item -->
+                
+                <!-- event item -->
+                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
+                
+                    <div class="pm-event-item-container">
+                    	<div class="pm-event-item-img-container" style="background-image:url(<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/venue/conference-home-1.jpg);">
+                        	<div class="pm-event-item-date">
+                            	<p class="pm-event-item-month">Offer Price</p>
+                                <p class="pm-event-item-day">$1500</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pm-event-item-desc">
+                        	<p class="pm-event-item-title">Conference</p>
+                            <div class="pm-event-item-divider"></div>
+                            <p class="pm-event-item-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget <a href="#">{...}</a> </p>
+                            <div class="pm-event-item-divider"></div>
+                            <ul class="pm-event-item-btns">
+                            	<li><a href="#" class="pm-rounded-btn small pm-primary">more info</a></li>
+                                <li><a href="#" class="pm-rounded-btn small pm-secondary"><i class="fa fa-facebook"></i> &nbsp;fan page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div><!-- /.col-lg-4 -->
+                <!-- /event item -->
+                                
+                
+            </div>
+        </div>
+        <!-- Gallery filter system end -->
+        
+        <!-- Load more -->
+        <div class="container pm-containerPadding-bottom-80">
+        	<div class="row">
+            
+            	<div class="col-lg-12 pm-center">
+                	
+                    <p class="pm-isotope-page-count">Viewing 3 of 8</p>
+                    <a href="events.html#" class="pm-rounded-btn pm-primary">Load More</a>
+                    
+                </div>
+            
+            </div>
+        </div>
+        <!-- Load more end -->
+        
+        <!-- BODY CONTENT end -->
