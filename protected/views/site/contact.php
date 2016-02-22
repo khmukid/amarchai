@@ -43,7 +43,7 @@
                       
                       
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 pm-column-spacing">
+<!--                <div class="col-lg-8 col-md-8 col-sm-8 pm-column-spacing">
                       
                     <h6 class="pm-primary">Send us a message</h6>
                     <div class="pm-contact-form-container">
@@ -69,6 +69,6 @@
                         </form>
                     </div>
                       
-                </div>
+                </div>-->
             </div>
         </div>

@@ -72,10 +72,10 @@
   <!-- Mobile Menu -->
   <div class="pm-mobile-menu-overlay" id="pm-mobile-menu-overlay"></div>
   
-  <div class="pm-mobile-global-menu">
+<!--  <div class="pm-mobile-global-menu">
                 	
     <div class="pm-mobile-global-menu-logo">
-<!--        <a href="index.html"><img src="" alt="Vienna Restaurant"></a> -->
+        <a href="index.html"><img src="" alt="Vienna Restaurant"></a> 
         <img src="../../../frontend-resources/img/logo-final.jpg" alt=""/>
     </div>
     
@@ -102,7 +102,7 @@
             <ul>
                 <li><a href="book-an-event.html">Book an Event</a></li>
                 <li><a href="events.html">Browse Events</a></li>
-                <!--<li><a href="#">Social Events</a></li>-->
+                <li><a href="#">Social Events</a></li>
             </ul>
         </li>
         <li>
@@ -117,14 +117,14 @@
             <ul>
             	<li><a href="store.html">Browse Store</a></li>
                 <li><a href="cart.html">View Cart</a></li>
-                <!--<li><a href="#">Customer Login</a></li>-->
+                <li><a href="#">Customer Login</a></li>
             </ul>
         </li>
         <li><a href="catering.html">Catering</a></li>
     
     </ul>
         
-  </div><!-- /pm-mobile-nav-overlay -->
+  </div> /pm-mobile-nav-overlay -->
   
   <!-- Theme color selector -->
   <div id="pm_theme_color_selector">
@@ -172,14 +172,14 @@
             	<div class="row">
                 	
                     <div class="col-lg-10 col-md-10 col-sm-10">
-                    	<form action="index.html#" method="post">
+                    	<form action="#" method="post">
                         	<input name="pm_search_field" type="text" class="pm-search-field-header" placeholder="Type Keywords...">
                         </form>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2">
                     	<ul class="pm-search-controls">
-                        	<li><a href="index.html#"><i class="fa fa-search"></i></a></li>
-                            <li><a href="index.html#" id="pm-search-collapse"><i class="fa fa-times"></i></a></li>
+                        	<li><a href="l#"><i class="fa fa-search"></i></a></li>
+                            <li><a href="#" id="pm-search-collapse"><i class="fa fa-times"></i></a></li>
                         </ul>
                     </div>
                     
@@ -198,7 +198,7 @@
                 <div class="col-lg-2 col-md-2 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="index.html"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
+                    		<a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/logo-final.png" class="img-responsive pm-header-logo" alt="Amar Chai"></a> 
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
@@ -208,7 +208,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                     	<div class="pm-sub-menu-book-event">
-                        		<a href="book-an-event.html"><i class="fa fa-users"></i> Organizing an event?</a>
+                        		<a href="#l"><i class="fa fa-users"></i> Organizing an event?</a>
                         </div>
                 
                     </div>
@@ -221,7 +221,7 @@
                     
                     <div class="col-lg-2 col-md-2 col-sm-6 visible-lg visible-md pm-book-event">
                     	<div class="pm-sub-menu-book-event">
-                        	<a href="book-an-event.html"><i class="fa fa-university"></i> Have a venue? </a>
+                        	<a href="#l"><i class="fa fa-university"></i> Have a venue? </a>
                         </div>
                     </div>
                     
@@ -276,7 +276,7 @@
                                     <ul>
                                         <li><a href="index.php?r=site/contact">Find Us</a></li>
                                         <li><a href="#">Social Media</a></li>
-                                        <li><a href="index.php?r=site/contact">Leave a Message</a></li>
+                                        <li><a href="index.php?r=site/message">Leave a Message</a></li>
                                         <li><a href="#">Why Amar Chai Venue?</a></li>
                                     </ul>
                                 </li>
@@ -359,7 +359,7 @@
                       <div class="flickr_badge_wrapper clearfix">
                       
                       	<div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/1.jpg">
@@ -367,7 +367,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="l#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/2.jpg">
@@ -375,7 +375,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/3.jpg">
@@ -383,7 +383,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/4.jpg">
@@ -391,7 +391,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/5.jpg">
@@ -399,7 +399,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/6.jpg">
@@ -407,7 +407,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/7.jpg">
@@ -415,7 +415,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/8.jpg">
@@ -423,7 +423,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/9.jpg">
@@ -431,7 +431,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/10.jpg">
@@ -439,7 +439,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/11.jpg">
@@ -447,7 +447,7 @@
                         </div>
                         
                         <div class="flickr_badge_image">
-                            <a href="index.html#">
+                            <a href="l#">
                             	<span></span>
                                 <i class="fa fa-search-plus"></i>
                             	<img width="63" height="63" title="" alt="A photo on Flickr" src="<?php echo Yii::app()->request->baseUrl; ?>/frontend-resources/img/flickr/12.jpg">
@@ -474,13 +474,13 @@
                         	
                             <p class="pm-event-widget-desc-title">Best Package of the year</p>
                             
-                            <p class="pm-event-widget-desc-excerpt">AAAAAAAA<a href="index.html#">{...}</a> </p>
+                            <p class="pm-event-widget-desc-excerpt">Our New Year’s Eve party features five venues of entertainment, delicious food with international food stations, a live band and amazing DJ’s. There will be something exciting going on in each venue throughout the evening. We will be announcing our theme for 2016 shortly.
                             
                         </div>
                         
                         <ul class="pm-event-widget-btns">
-                        	<li><a href="index.html#" class="pm-rounded-btn small pm-primary">More Info</a></li>
-                            <li><a href="index.html#" class="pm-rounded-btn small pm-secondary"><i class="fa fa-facebook"></i> &nbsp;Fan page</a></li>
+                        	<li><a href="#" class="pm-rounded-btn small pm-primary">More Info</a></li>
+                            <li><a href="#" class="pm-rounded-btn small pm-secondary"><i class="fa fa-facebook"></i> &nbsp;Fan page</a></li>
                         </ul>
                         
                       </div>
@@ -500,11 +500,11 @@
                         <div class="pm-footer-social-info-container">
                             <h6>Follow us and stay connected!</h6>
                             <ul class="pm-footer-social-icons">
-                                <li title="Twitter" class="pm_tip_static_top"><a href="index.html#"><i class="fa fa-twitter tw"></i></a></li>
-                                <li title="Facebook" class="pm_tip_static_top"><a href="index.html#"><i class="fa fa-facebook fb"></i></a></li>
-                                <li title="Google Plus" class="pm_tip_static_top"><a href="index.html#"><i class="fa fa-google-plus gp"></i></a></li>
-                                <li title="Linkedin" class="pm_tip_static_top"><a href="index.html#"><i class="fa fa-linkedin linked"></i></a></li>
-                                <li title="YouTube" class="pm_tip_static_top"><a href="index.html#"><i class="fa fa-youtube yt"></i></a></li>
+                                <li title="Twitter" class="pm_tip_static_top"><a href="#"><i class="fa fa-twitter tw"></i></a></li>
+                                <li title="Facebook" class="pm_tip_static_top"><a href="#"><i class="fa fa-facebook fb"></i></a></li>
+                                <li title="Google Plus" class="pm_tip_static_top"><a href="#"><i class="fa fa-google-plus gp"></i></a></li>
+                                <li title="Linkedin" class="pm_tip_static_top"><a href="#"><i class="fa fa-linkedin linked"></i></a></li>
+                                <li title="YouTube" class="pm_tip_static_top"><a href="#"><i class="fa fa-youtube yt"></i></a></li>
                             </ul>
                         </div>
                         
@@ -515,7 +515,7 @@
                             <h6>Subscribe to our newsletter</h6>
                             
                             <div class="pm-footer-subscribe-form-container">
-                                <form action="index.html#" method="post" id="pm-footer-subscribe">
+                                <form action="#" method="post" id="pm-footer-subscribe">
                                     <input class="pm-footer-subscribe-field" type="text" placeholder="Email Address" value="" />
                                     <div class="pm-footer-subscribe-submit-btn">
                                         <i class="fa fa-paper-plane"></i>
